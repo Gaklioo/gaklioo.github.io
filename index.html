@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Steven's Project</title>
+        <link rel="stylesheet" href="style.css">
+
+        <script type="module">
+
+            // Import the functions you need from the SDKs you need
+          
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js";
+          
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-analytics.js";
+          
+            // TODO: Add SDKs for Firebase products that you want to use
+          
+            // https://firebase.google.com/docs/web/setup#available-libraries
+          
+          
+            // Your web app's Firebase configuration
+          
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+          
+            const firebaseConfig = {
+          
+              apiKey: "AIzaSyDDi_r-4hKp8ezaURNPuNUOHKS0KWm26kE",
+          
+              authDomain: "gakswebsite.firebaseapp.com",
+          
+              projectId: "gakswebsite",
+          
+              storageBucket: "gakswebsite.appspot.com",
+          
+              messagingSenderId: "547093967068",
+          
+              appId: "1:547093967068:web:d626c70f3c01b9ec8bc419",
+          
+              measurementId: "G-PKNK8TZG3B"
+          
+            };
+          
+          
+            // Initialize Firebase
+          
+            const app = initializeApp(firebaseConfig);
+          
+            const analytics = getAnalytics(app);
+          
+          </script>
+    </head>
+    <body>
+        <div id = "container">
+            <div id = "banner">
+                <p id = "bannerP1">Welcome To Stevens Website</p>
+                <button id = "page2" onclick="location.href = 'page2.html'">Second Page</button>
+                <button id = "github" onclick="location.href = 'https://github.com/Gaklioo'">Github</a></button>
+            </div>
+
+            <div id = "introduction">
+                <p id = "name">Hello, I am Steven Patterson.</p>
+                <p id = "bio">Im a 2nd year OCC student, majoring in Computer Information Sciences. I work a full time job and go to classes full time aswell, and my favorite anime is evangelion.</p>
+                <p id = "classes">Here is a list of the classes that I am taking.</p>
+                <table id = "classesList">
+                    <tr>
+                        <th>Class Id</th>
+                        <th>Class Name</th>
+                        <th>Class Description</th>
+                    </tr>
+                    <tr>
+                        <th><p>CIS-1500</p></th>
+                        <th><a href = "https://oaklandcc.desire2learn.com/d2l/home/175892">Intro To Java Programming</a></th>
+                        <th><p>Learning the basics of Coding, Basics of GUI, and basics of OOP programming style.</p></th>
+                    </tr>
+                    <tr>
+                        <th><p>CIS-1420</p></th>
+                        <th><a href = "https://oaklandcc.desire2learn.com/d2l/home/175172">HTML5 Programming</a></th>
+                        <th><p>Focuses on the devolpment of internet webpages using HTML5.</p></th>
+                    </tr>
+                    <tr>
+                        <th><p>CIS-1512</p></th>
+                        <th><a href = "https://oaklandcc.desire2learn.com/d2l/home/175177">Software Engineering</a></th>
+                        <th><p>Focuses on the formal methods and approchaes used in the design, development and testing of software.</p></th>
+                    </tr>
+                    <tr>
+                        <th><p>MAT-1150</p></th>
+                        <th><a href = "https://oaklandcc.desire2learn.com/d2l/home/175537">Intermediate Algebra</a></th>
+                        <th><p>Review of basic algebra, teaches algebra 2.</p></th>
+                    </tr>
+                </table>
+            </div>
+
+            <div id = "banner2">
+
+            </div>
+
+            <div id = "rest">
+                <ol id = "list">
+                    <li>My favorite anime is Evangelion</li>
+                    <li>My favorite gender to date is men but no one knows that :3</li>
+                    <li>3</li>
+                </ol>
+            </div>
+        </div>
+    </body>
+</html>
