@@ -101,6 +101,12 @@
 
 #list{
     list-style: none;
+    position: relative;
+    display: block;
+    align-items: center;
+    text-align: center;
+    list-style-position: inside;
+
 }
 
 a{
@@ -114,6 +120,7 @@ a:hover{
 }
 
 body{
+    font-size: large;
     display: block;
     width: 25em;
     margin: 0 auto;
